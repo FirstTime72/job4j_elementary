@@ -3,7 +3,7 @@ package ru.job4j.condition;
 public class ABC {
 
     public static int findBiggestOfThree(int a, int b, int c) {
-        return a > b ? a > c ? a : c : b > c ? b : c;
+        return a > b ? Math.max(a, c) : Math.max(b, c);
     }
 
     public static void main(String[] args) {
