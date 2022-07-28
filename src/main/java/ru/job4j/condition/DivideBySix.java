@@ -20,7 +20,6 @@ public class DivideBySix {
         System.out.println(checkNumber(21));
         System.out.println(checkNumber(13));
         System.out.println(checkNumber(14));
-        System.out.println(checkNumber(24));
     }
 }
 
